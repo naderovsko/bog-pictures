@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1d1c22">
+  <meta name="description" content="BOG PICTURES — creative video production, event films, business videos and music videos.">
+  <title>BOG PICTURES | Video Creation</title>
+  <link rel="icon" type="image/png" href="bog-pictures-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="#home"><img src="bog-pictures-logo.png" alt=""> <span>BOG PICTURES</span></a>
+    <nav id="mainNav">
+      <a href="#portfolio" data-en="WORK" data-fr="PROJETS">WORK</a>
+      <a href="#process" data-en="PROCESS" data-fr="APPROCHE">PROCESS</a>
+      <a href="#contact" data-en="CONTACT" data-fr="CONTACT">CONTACT</a>
+    </nav>
+    <a class="gold-button top-cta" href="#contact" data-en="Let's Make Something ↗" data-fr="Créons quelque chose ↗">Let's Make Something ↗</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+      <div class="floating-card card-wedding"><img src="assets/hero-cover.png" alt="Cinematic landscape film frame"><span>01 / MOMENTS</span></div>
+      <div class="floating-card card-landscape"><img src="assets/hero-cover.png" alt="Cinematic landscape"><span>02 / ATMOSPHERE</span></div>
+      <div class="floating-card card-business"><img src="assets/hero-cover.png" alt="Creative business film frame"><span>03 / BRANDS</span></div>
+      <div class="floating-card card-live"><img src="assets/hero-cover.png" alt="Live event film frame"><span>04 / ENERGY</span></div>
+      <div class="floating-card card-detail"><img src="assets/hero-cover.png" alt="Cinematic detail"><span>05 / DETAILS</span></div>
+      <div class="hero-center">
+        <p class="eyebrow"><span></span> BOG PICTURES · VIDEO CREATION</p>
+        <h1 data-en="Every frame<br><em>earns its place.</em>" data-fr="Chaque image<br><em>a sa raison d'être.</em>">Every frame<br><em>earns its place.</em></h1>
+        <p class="hero-description" data-en="Weddings. Business films. Music videos.<br>Shot with intention. Cut with experience." data-fr="Mariages. Films d'entreprise. Clips musicaux.<br>Filmé avec intention. Monté avec expérience.">Weddings. Business films. Music videos.<br>Shot with intention. Cut with experience.</p>
+        <div class="hero-actions">
+          <a class="gold-button" href="#contact" data-en="Let's Make Something ↗" data-fr="Créons quelque chose ↗">Let's Make Something ↗</a>
+          <a class="quiet-link" href="#portfolio" data-en="Watch the portfolio ↓" data-fr="Voir le portfolio ↓">Watch the portfolio ↓</a>
+        </div>
+      </div>
+      <div class="scroll-cue">SCROLL <span>↓</span></div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+      <div class="section-top"><span>01 / SELECTED WORK</span><p data-en="A few stories told through moving images." data-fr="Quelques histoires racontées en images.">A few stories told through moving images.</p></div>
+      <h2 data-en="Selected <em>frames.</em>" data-fr="Quelques <em>réalisations.</em>">Selected <em>frames.</em></h2>
+      <div class="portfolio-grid" id="portfolioGrid"></div>
+      <p class="portfolio-note" id="portfolioNote">Your YouTube and Vimeo projects will appear here when added to <code>projects.js</code>.</p>
+    </section>
+
+    <section class="process section" id="process">
+      <div class="section-top"><span>02 / THE APPROACH</span><p>15 YEARS OF VIDEO EDITING EXPERIENCE</p></div>
+      <div class="process-grid">
+        <h2 data-en="A clear vision.<br><em>A thoughtful cut.</em>" data-fr="Une vision claire.<br><em>Un montage précis.</em>">A clear vision.<br><em>A thoughtful cut.</em></h2>
+        <div class="process-copy">
+          <p data-en="From filming on location to the final edit, every decision serves the story. BOG PICTURES combines hands-on production with 15 years of editing experience to create films with character, rhythm and purpose." data-fr="Du tournage sur place au montage final, chaque décision sert l'histoire. BOG PICTURES associe la prise de vue à 15 ans d'expérience en montage pour créer des films avec du caractère, du rythme et du sens.">From filming on location to the final edit, every decision serves the story. BOG PICTURES combines hands-on production with 15 years of editing experience to create films with character, rhythm and purpose.</p>
+          <div class="service-tags"><span>EVENTS</span><span>BUSINESS</span><span>MUSIC</span><span>TEASERS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <span class="contact-kicker">03 / YOUR STORY STARTS HERE</span>
+      <h2 data-en="Let's make<br><em>it memorable.</em>" data-fr="Créons quelque chose<br><em>d'inoubliable.</em>">Let's make<br><em>it memorable.</em></h2>
+      <a class="gold-button" id="contactButton" href="#contact">Let's Make Something ↗</a>
+      <small id="contactHint">Add your WhatsApp number or email in site-config.js.</small>
+    </section>
+  </main>
+
+  <footer><a class="footer-brand" href="#home">BOG PICTURES</a><span>VIDEO CREATION · SINCE 2006</span><span>© <span id="year"></span></span></footer>
+  <script src="site-config.js"></script>
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
